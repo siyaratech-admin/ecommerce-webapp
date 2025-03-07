@@ -36,9 +36,9 @@ const Logo: FC = () => {
         alignItems: 'center',
       }}>
         {activeMode === 'dark' ? (
-          <h1>ShopSphere</h1>
+          <h2>ShopSphere</h2>
         ) : (
-          <h1>ShopSphere</h1>
+          <h2>ShopSphere</h2>
         )}
       </LinkStyled>
     );
@@ -50,9 +50,9 @@ const Logo: FC = () => {
       alignItems: 'center',
     }}>
       {activeMode === 'dark' ? (
-          <h1>ShopSphere</h1>
+          <h2>ShopSphere</h2>
         ) : (
-          <h1>ShopSphere</h1>
+          <h2>ShopSphere</h2>
       )}
     </LinkStyled>
   );
